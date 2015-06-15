@@ -54,8 +54,7 @@
 		</delete>
         <echo message="making directory..."/>
 		<mkdir dir="${test.dest}"/>
-       <!-- <echo message="classpath------: ${test.classpath}"/> -->
-        <echo message="compiling..."/>
+             <echo message="compiling..."/>
         <javac 
             debug="true" 
             destdir="${test.dest}" 
